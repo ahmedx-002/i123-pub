@@ -1,0 +1,9 @@
+language: "en-US"
+reviews:
+  request_changes_workflow: true
+knowledge_base:
+  code_guidelines:
+    enabled: true
+    filePatterns:
+      - files: ".coderabbit/standards.md"
+        applyTo: "vuln/**"
